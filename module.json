@@ -1,0 +1,30 @@
+{
+    "alias": "flowiseai",
+    "version":"1.2",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Flowiseai\\Providers\\Main",
+        "Modules\\Flowiseai\\Providers\\Event"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "vendor_fields":[],
+    "ownermenus":[
+        {
+            "name":"AI Bots",
+            "icon":"ni ni-atom text-green",
+            "route":"flowisebots.indexcompany"
+        }
+    ],
+    "adminmenus":[
+        {
+            "name":"AI Bots",
+            "icon":"ni ni-atom text-green",
+            "route":"flowisebots.index"
+        }
+    ]
+}
